@@ -13,7 +13,7 @@ export default function Team() {
       <style jsx>{`
         .Team {
           height: 60vh;
-          background-color: gold;
+          background-color: silver;
         }
       `}</style>
     </>

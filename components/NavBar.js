@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 export default function NavBar() {
+  const router = useRouter();
   return (
     <>
       <nav className="NavBar">
@@ -11,13 +13,34 @@ export default function NavBar() {
         </Link>
         <div className="menu">
           <Link href="/about">
-            <a className="menu-item">about</a>
+            <a
+              className="menu-item"
+              style={{
+                color: router.pathname === "/about" ? "#d63031" : "#636e72",
+              }}
+            >
+              about
+            </a>
           </Link>
           <Link href="/works">
-            <a className="menu-item">works</a>
+            <a
+              className="menu-item"
+              style={{
+                color: router.pathname === "/works" ? "#d63031" : "#636e72",
+              }}
+            >
+              works
+            </a>
           </Link>
           <Link href="/contact">
-            <a className="menu-item">contact</a>
+            <a
+              className="menu-item"
+              style={{
+                color: router.pathname === "/contact" ? "#d63031" : "#636e72",
+              }}
+            >
+              contact
+            </a>
           </Link>
         </div>
       </nav>

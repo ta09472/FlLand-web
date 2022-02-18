@@ -17,6 +17,7 @@ export default function Introduction() {
         h1 {
           animation-duration: 2s;
           animation-name: textSlide;
+          color: #2d3436;
         }
 
         @keyframes textSlide {
@@ -30,9 +31,10 @@ export default function Introduction() {
         }
         .Intro {
           font-size: 2em;
-          border-bottom: 2px solid black;
+          border-bottom: 2px solid #2d3436;
           padding-bottom: 0.3em;
           margin-bottom: 0.3em;
+          color: #2d3436;
         }
         .Introduction {
           animation-duration: 4s;

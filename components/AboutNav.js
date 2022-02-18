@@ -50,7 +50,7 @@ export default function AboutNav() {
             justify-content: center;
             margin-top: 2em;
             padding-bottom: 1em;
-            border-bottom: 1px solid;
+            border-bottom: 1px solid #b2bec3;
           }
 
           a {

@@ -5,10 +5,11 @@ export default function Paper({ data }) {
       <style jsx>
         {`
           .Certification {
-            height: 40vh;
-            width: 16vw;
+            height: 28em;
+            width: 24em;
+            max-width: 24em;
             margin-top: 1em;
-            background-color: gold;
+            background-color: silver;
           }
         `}
       </style>

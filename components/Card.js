@@ -6,9 +6,9 @@ export default function Card({ data }) {
         .Card {
           border-radius: 3px;
           background-color: silver;
-          width: 22.5em;
+          width: 26em;
           height: 22em;
-          margin: 1em;
+          margin: 1em 0;
           transition: transform 700ms;
         }
 

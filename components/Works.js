@@ -1,5 +1,6 @@
 import Card from "../components/Card";
 import Link from "next/link";
+
 export default function Works() {
   const list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -16,7 +17,7 @@ export default function Works() {
       <style jsx>{`
         .Works {
           display: flex;
-          justify-content: center;
+          justify-content: space-around;
           align-items: center;
           flex-wrap: wrap;
         }
