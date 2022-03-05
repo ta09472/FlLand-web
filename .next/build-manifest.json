@@ -35,6 +35,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
     ],
+    "/about/certification": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/about/certification.js"
+    ],
+    "/about/team": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/about/team.js"
+    ],
     "/contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -44,6 +54,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
+    ],
+    "/works/[id]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/[id].js"
     ]
   },
   "ampFirstPages": []

@@ -31,7 +31,7 @@ export default function Introduction() {
         }
         .Intro {
           font-size: 2em;
-          border-bottom: 2px solid #2d3436;
+          border-bottom: 2px solid #636e72;
           padding-bottom: 0.3em;
           margin-bottom: 0.3em;
           color: #2d3436;

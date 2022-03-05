@@ -10,7 +10,7 @@ export default function Contact() {
         .Map {
           height: 40em;
           background-color: silver;
-          margin-bottom: 1em;
+          margin: 2em 0;
         }
       `}</style>
     </>
